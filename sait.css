@@ -1,0 +1,79 @@
+body{
+    display:inline;
+}
+.ul_one a{
+    color: red;
+    font-family: cursive;
+    text-decoration: none; 
+    font-size:1.7vmax;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay:2s;
+    transition-property:underline
+}
+.ul_one a:hover{
+    text-decoration:red;
+    text-decoration-line: underline;
+}
+.tt li a{
+    color: red;
+    font-size:30px;
+    font-family: cursive;
+    text-decoration: none; 
+}
+.levoemenu{
+    display: inline-block;
+    height:100vh;
+    width:18vw;
+    background-color: rgba(185, 185, 185, 0.164);
+    border-right: 0.7vw rgb(45, 46, 45) solid;
+    margin-left: -1vw;
+}
+.tip_levoemenu{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+.pravoemenu{
+    display: inline-block;
+    height:100vh;
+    width:84.87vw;
+    background-color: rgba(185, 181, 181, 0.836);
+    position:absolute;
+ }
+
+.txt1{
+    color:rgb(0, 0, 0);
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+}
+.ss{
+    color:red;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 35px;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay:2s;
+    transition-property:underline;
+    
+ }
+.ss:hover{
+    text-decoration:red;
+    text-decoration-line: underline;}
+ul{
+    list-style-type: none;
+}
+.tt{
+    visibility: visible;
+}
+.io:hover .tt a{
+    color:red;
+    display:inline;
+    margin-left:-0.7vmax;
+}
+.io{display:inline;
+}
+.io .tt a{display:none;}
